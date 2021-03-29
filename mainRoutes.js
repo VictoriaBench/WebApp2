@@ -3,7 +3,7 @@ const express = require('express')
 const mainRouter = express.Router()
 
 mainRouter.get('/', function (req, res) {
-  res.send('hello world I\'m node!')
+  res.send('hello world I\'m node! for real')
 })
 
 mainRouter.get('/about', function (req, res) {
